@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="static/stylesheet.css">
 </head>
 <body>
+<div>
+    <a href="index">Home</a>
+    <a href="about">About Us</a>
+</div>
 
 </body>
 </html>
