@@ -1,3 +1,5 @@
+<#import "/spring.ftl" as spring>
+
 <!doctype html>
 <html lang=">">
 <head>
@@ -10,8 +12,16 @@
 </head>
 <body>
 <div>
-    <a href="index">Home</a>
-    <a href="about">About Us</a>
+    <a href="index">
+        <@spring.message "nav.home"/>
+    </a>
+    <a href="about">
+        <@spring.message "nav.about"/>
+    </a>
+    <a href="contact-us"><@spring.message "nav.contacts"/></a>
+    <button>
+        <@spring.message "nav.register"/>
+    </button>
 </div>
 
 <#list posts>
